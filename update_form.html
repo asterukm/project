@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Update one restaurant</title>
+</head>
+<body>
+	 <h1>Update restaurant</h1>
+<form action="/update" method="post">
+<!--
+<form action="http://101.78.220.133:8099/new" method="get">
+-->
+        <input type="text" name="name"><br>
+
+  <h2>Address:</h2>
+      Building: <input type="text" name="building"><br>
+      Street: <input type="text" name="street"><br>
+      Zipcode: <input type="text" name="zipcode"><br>
+  <h3>Coordinates:</h3>
+      Longitude: <input type="text" name="lon"><br>
+      Latitude: <input type="text" name="lat"><br>
+
+  <h2>Other Info</h2>
+      Brought: <input type="text" name="brought"><br>
+      Cuisine: <input type="text" name="cuisine"><br>
+      grade: <input type="text" name="grade"><br>
+      score: <input type="text" name="score"><br>
+      Restaurant Id: <input type="text" name="restaurant_id"><br>
+  <br>
+  <input type="submit" value="Update Restaurant">
+</form>
+<br><a href="/">Back to home</a><br>
+</body>
+</html>
