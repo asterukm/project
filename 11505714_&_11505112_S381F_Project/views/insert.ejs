@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Restaurants</title>
+
+<style>
+body {
+    background: url("");
+    background-repeat: no-repeat;  }
+section {
+  
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+</style>
+
+</head>
+<body>
+<h1>Insert Restaurants</h1>
+
+<a href="/">Back to home</a><br>
+<form action="/insert" method="post">
+<!--
+<form action="http://101.78.220.133:8099/new" method="get">
+-->
+  <h2>Restaurant</h2>
+  Name*[a-z]:<input type="text" name="name"><br>
+
+
+
+  <h2>Address:</h2>
+      Building: <input type="text" name="building"><br>
+      Street: <input type="text" name="street"><br>
+      Zipcode: <input type="text" name="zipcode"><br>
+  <h3>Coordinates:</h3>
+      Longitude: <input type="text" name="lon"><br>
+      Latitude: <input type="text" name="lat"><br>
+
+  <h2>Other Info</h2>
+      Brought: <input type="text" name="brought"><br>
+      Cuisine: <input type="text" name="cuisine"><br>
+      grade: <input type="text" name="grade"><br>
+      score: <input type="text" name="score"><br>
+      Restaurant Id: <input type="text" name="restaurant_id"><br>
+  <br>
+      <input type="submit" value="Create Restaurant">
+</form>
+
+</body>
+</html>

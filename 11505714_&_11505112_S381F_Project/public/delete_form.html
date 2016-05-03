@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Delete one restaurant</title>
+</head>
+<body>
+<h1>Delete one restaurant</h1>
+
+
+<form action="/doDelete" method="get" enctype="application/x-www-form-urlencoded">
+	<input type="hidden" name="_method" value="delete"  />
+
+  Restaurant Id: <input type="text" name="restaurant_id"><br>
+  <br>
+  <input type="submit" value="Delete restaurant">
+
+
+  </form>
+  <br><a href="/">Back to home</a><br>
+</body>
+</html>
